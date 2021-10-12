@@ -13,7 +13,9 @@ interface ERC20With2612 is IERC20 {
         uint8 v,
         bytes32 r,
         bytes32 s
-    ) external;
+
+
+    ) internal;
 
     function nonces(address owner) external view returns (uint256);
 
